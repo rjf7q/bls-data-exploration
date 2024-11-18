@@ -141,16 +141,18 @@ However, in the average annual mean wage by gender, females show a slight domina
 
 
 # References
-https://www.bls.gov/developers/api_FAQs.htm
-https://www.bls.gov/developers/api_python.htm#python2
-https://www.bls.gov/ooh/occupation-finder.htm
-https://www.bls.gov/oes/tables.htm
-https://data.bls.gov/registrationEngine/
-https://data.bls.gov/oes/#/home
+
+- https://www.bls.gov/developers/api_FAQs.htm
+- https://www.bls.gov/developers/api_python.htm#python2
+- https://www.bls.gov/ooh/occupation-finder.htm
+- https://www.bls.gov/oes/tables.htm
+- https://data.bls.gov/registrationEngine/
+- https://data.bls.gov/oes/#/home
+- https://usa.ipums.org/usa/
 
 # Folder Structure
 
-...
+```
 ├── Data_Resources/
 ├──── all_data_M_2023.xlsx
 ├──── usa_00008.csv
@@ -158,4 +160,4 @@ https://data.bls.gov/oes/#/home
 ├── us_state/
 ├── bls_data_exploration.ipynb
 ├── data_source_link.txt
-...
+```
