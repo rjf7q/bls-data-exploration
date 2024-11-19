@@ -41,7 +41,15 @@ After cloning the repository, before running the code, ensure that your folder a
 ├── bls_data_exploration.ipynb
 ```
 
-You will need the **"Data_Resources/"** folder to exactly match to input the data, a directory called **"graphics_images/"** to store the images and charts produced, the **"us_state/"** folder to exactly match to build the geographic heatmaps, and the **"bls_data_exploration.ipynb"** notebook file to run the analysis. The raw datasets must be inside the **"Data_Resources/** folder, and the U.S. state shape data (all data within the us_state folder) must also be placed in the **us_state/** folder prior to running the code. Please run the **"bls_data_exploration.ipynb"** file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
+You will need:
+- A directory called **"Data_Resources/"** to exactly match the input data from the repository
+- A directory called **"graphics_images/"** to store the images and charts produced from the code
+- A directory called **"us_state/"**  to exactly match the data from the repository to build the geographic heatmaps 
+- The **"bls_data_exploration.ipynb"** notebook file to run the analysis 
+
+The raw datasets must be inside the **"Data_Resources/** folder, and the U.S. state shape data (all data within the us_state folder) must also be placed in the **us_state/** folder prior to running the code. 
+
+Please run the **"bls_data_exploration.ipynb"** file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
 
 Please note you must have the following python libraries installed before running this code:
 
@@ -57,7 +65,6 @@ Please note you must have the following python libraries installed before runnin
     - Needed for creating the geographic heat maps
 6. datetime
     - Needed for calculating and setting datetimes inside the data
-
 
 
 # Project Goals:
