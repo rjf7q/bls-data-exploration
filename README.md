@@ -48,7 +48,7 @@ After exploring the distributions of educational attainment and wage data, here 
 
 <img align="center" width="900" height="400" src='graphics_images/fig1.1_avg_income_state_heatmap.png'>
 
-- Fig 1.1: Average Income by State in the U.S. Heatmap
+- **Fig 1.1: Average Income by State in the U.S. Heatmap**
 
 ### Visualization Highlights:
 
@@ -74,13 +74,13 @@ Other Top States:
 
 <img align="center" width="900" height="350" src='graphics_images/fig1.2_num_paid_individuals_barchart.png'>
 
-- Fig 1.2: Bar plot showing the number of high-paid individuals by state.
+- **Fig 1.2: Bar plot showing the number of high-paid individuals by state**
 
 The same grpah was summarized into the pie chart below. States with a national paid individual average below 5% were grouped into "Other" to display the largest percentages across the nation.
 
 <img align="center" width="500" height="500" src='graphics_images/fig1.3_percentage_high_paid_state_piechart.png'>
 
-- Fig 1.3: Pie chart showing the percentage of high-paid individuals by state.
+- **Fig 1.3: Pie chart showing the percentage of high-paid individuals by state**
 
 ### Key Insights: 
 
@@ -91,7 +91,7 @@ These visualizations reflect the absolute numbers of high-paid individuals due t
 
 <img align="center" width="900" height="350" src='graphics_images/fig2.1_top10_occ_state_barchart_vertical.png'>
 
-- Fig 2.1: Bar plot showing the top 10 occupations for high-paid individuals.
+- **Fig 2.1: Bar plot showing the top 10 occupations for high-paid individuals**
 
 ### Key Insights: 
 
@@ -99,7 +99,7 @@ We have visualized the top 10 occupations of the highest paid individuals. Of no
 
 <img align="center" width="900" height="350" src='graphics_images/fig2.2_top10_occ_state_barchart_horizontal.png'>
 
-- Fig 2.2: Horizontal Bar plot showing the top 10 occupations for high-paid individuals.
+- **Fig 2.2: Horizontal Bar plot showing the top 10 occupations for high-paid individuals**
 
 ### Key Insights: 
 
@@ -116,7 +116,7 @@ This visualization reinforces the idea that the highest-paying jobs are often in
 
 <img align="center" width="900" height="350" src='graphics_images/fig3.1_distr_educ_high_paid_barchart.png'>
 
-- Fig 3.1: Bar plot showing the number of high-paid individuals by education level.
+- **Fig 3.1: Bar plot showing the number of high-paid individuals by education level**
 
 ### Key Insights: 
 
@@ -124,7 +124,7 @@ The distribution of high-paid individuals and annual mean income by education le
 
 <img align="center" width="900" height="350" src='graphics_images/fig3.2_distr_educ_annual_mean_income_boxplot.png'>
 
-- Fig 3.2: Box plot showing the distribution of salaries by education level.
+- **Fig 3.2: Box plot showing the distribution of salaries by education level**
 
 ### Key Insights: 
 
@@ -135,7 +135,7 @@ The high incomes for individuals with "Grade 5 to 8," "Associate Degree," and "N
 
 <img align="center" width="900" height="400" src='graphics_images/fig4.1_correlation_heatmap.png'>
 
-Fig 4.1: Heatmap showing the correlation matrix of numerical features.
+- **Fig 4.1: Heatmap showing the correlation matrix of numerical features**
 
 ### Key Insights: 
 
@@ -145,7 +145,7 @@ The small correlation (max 0.15) suggests that salary is influenced by many fact
 
 <img align="center" width="900" height="350" src='graphics_images/fig4.2_total_employment_avg_salary_scatter.png'>
 
-- Fig 4.2: Scatter plot showing the relationship between Average Salary (A_MEAN) and Total Employment (TOT_EMP).
+- **Fig 4.2: Scatter plot showing the relationship between Average Salary (A_MEAN) and Total Employment (TOT_EMP)**
 
 ### Key Insights: 
 
@@ -156,7 +156,7 @@ The above scatter shows that there is not a strong relationship between the two 
 
 <img align="center" width="900" height="350" src='graphics_images/fig5.1_high_paid_gender_barchart.png'>
 
-- Fig 5.1: Count of High-Paid Individuals by Gender
+- **Fig 5.1: Count of High-Paid Individuals by Gender**
 
 ### Key Insights: 
 
@@ -166,15 +166,15 @@ We then drilled deeper into the data with the below graphic showing the average 
 
 <img align="center" width="900" height="350" src='graphics_images/fig5.2_avg_annual_mean_wage_gender_barchart.png'>
 
-- Fig 5.2: Average Annual Mean Wage by Gender
+- **Fig 5.2: Average Annual Mean Wage by Gender**
 
 ### Key Insights: 
 
 However, in the average annual mean wage by gender, females show a slight dominance, suggesting that within the specific high-paying roles analyzed, women may be earning slightly more on average. This could reflect a few things:
 
-- Differences in Occupations: High-paying jobs for women may be concentrated in fields that offer slightly higher wages.
-- Smaller Sample Size for Women: There could be fewer women in the data, but their salaries might skew higher due to fewer women in the job market at the high end.
-- Sector Differences: Certain sectors, such as healthcare or education, might have fewer men but offer high-paying opportunities for women, leading to a higher average wage.
+- **Differences in Occupations:** High-paying jobs for women may be concentrated in fields that offer slightly higher wages.
+- **Smaller Sample Size for Women:** There could be fewer women in the data, but their salaries might skew higher due to fewer women in the job market at the high end.
+- **Sector Differences:** Certain sectors, such as healthcare or education, might have fewer men but offer high-paying opportunities for women, leading to a higher average wage.
 
 > The slight difference in wages might also indicate that the top earners in some fields may be women, even though more men hold high-paying roles in other industries.
 
@@ -183,7 +183,7 @@ However, in the average annual mean wage by gender, females show a slight domina
 
 <img align="center" width="900" height="350" src='graphics_images/fig6.1_top10_occ_annual_mean_wage_barchart.png'>
 
-- Fig 6.1: Bar chart depicting the top 10 occupations and their average annual mean wage
+- **Fig 6.1: Bar chart depicting the top 10 occupations and their average annual mean wage**
 
 ### Key Insights: 
 
@@ -191,18 +191,18 @@ This visualization covers the top 10 highest paying occupations and their averag
 
 <img align="center" width="900" height="550" src='graphics_images/fig6.2_top20_occ_annual_mean_wage_boxplot.png'>
 
-- Fig 6.2: Box plot showing the distribution of annual mean wages for the top 20 occupations.
+- **Fig 6.2: Box plot showing the distribution of annual mean wages for the top 20 occupations**
 
 ### Key Insights: 
 
-The top occupations mentioned above, [nurse anesthetics, computer and information research scientists, and architectural and engineering managers], are shown to have not only the highest annual wages but also the highest ranges of salaries amongst other professions. Even though Computer and Information Research Scientists have a higher max salary, their average salary is much lower than Nurse Anesthetics. So on average, Nurse Anesthetics will make more than Computer and Information Research Scientists, even if the latter profession has higher peaks. 
+The top occupations mentioned above, **[nurse anesthetics, computer and information research scientists, and architectural and engineering managers]**, are shown to have not only the highest annual wages but also the highest ranges of salaries amongst other professions. Even though Computer and Information Research Scientists have a higher max salary, their average salary is much lower than Nurse Anesthetics. So on average, Nurse Anesthetics will make more than Computer and Information Research Scientists, even if the latter profession has higher peaks. 
 
 ## (7) Distribution of High-Paid Individuals across different Age Groups
 ## How is the distribution of high-paid individuals across different age groups?
 
 <img align="center" width="900" height="350" src='graphics_images/fig7.1_count_high_paid_age_group_barchart.png'>
 
-- Fig 7.1: Bar chart showing the count of high-paid individuals by age
+- **Fig 7.1: Bar chart showing the count of high-paid individuals by age**
 
 ### Key Insights: 
 
@@ -224,21 +224,21 @@ Handling data inconsistencies and ensuring proper merges across datasets require
 
 Our key conclusions from this analysis are as follows:
 
-- Geographic Trends:
+- **Geographic Trends:**
     - Delaware leads with the highest concentration of high-paid individuals, driven by its corporate and financial sectors.
     - States like California, New York, and Texas follow, supported by industries such as technology, finance, and entertainment.
-- Occupational Insights:
+- **Occupational Insights:**
     - Common high-paying occupations include Software Developers, Financial Managers, and Computer and Information Systems Managers.
     - These roles reflect the growing importance of technology and leadership in driving economic growth.
-- Education and Salary:
+- **Education and Salary:**
     - Surprisingly, individuals with education levels between Grade 5–8 showed notable representation in high-income brackets, likely influenced by outliers or specific job contexts.
     - Overall, higher education correlated with increased earning potential, though not uniformly across all sectors.
-- Gender Dynamics:
+- **Gender Dynamics:**
     - Males dominate in terms of sheer numbers of high-paid individuals.
     - However, females exhibited slightly higher average annual wages in some instances, indicating possible progress in wage equality within certain fields.
-- Age Distribution:
+- **Age Distribution:**
     - The majority of high-paid individuals fall between 35–54 years, aligning with peak career growth and experience.
-- Weak Correlation with Features:
+- **Weak Correlation with Features:**
     - Most numerical features, including employment size and location quotient, showed weak correlation with salary, suggesting more complex factors influence high incomes.
 
 
@@ -276,7 +276,7 @@ After cloning the repository, before running the code, ensure that your folder a
 ├── bls_data_exploration.ipynb
 ```
 
-You will need the *Data_Resources* folder to exactly match to input the data, a directory called *graphics_images* to store the images and charts produced, the *us_state* folder to exactly match to build the geographic heatmaps, and the *bls_data_exploration.ipynb* notebook file to run the analysis. Please run the *bls_data_exploration.ipynb* file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
+You will need the **Data_Resources** folder to exactly match to input the data, a directory called **graphics_images** to store the images and charts produced, the **us_state** folder to exactly match to build the geographic heatmaps, and the **bls_data_exploration.ipynb** notebook file to run the analysis. Please run the **bls_data_exploration.ipynb** file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
 
 Please note you must have the following python libraries installed before running this code:
 
