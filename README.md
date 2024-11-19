@@ -17,8 +17,8 @@ This project analyzes the relationship between salary, education, and occupation
 - [Problems Encountered](#problems-encountered)
 - [Conclusions](#conclusions-and-key-findings)
 - [Future Considerations](#future-considerations)
-- [Folder Structure](#folder-structure)
 - [Code Demonstration](#code-demonstration)
+- [Project Folder Structure](#folder-structure)
 - [References](#references)
 
 
@@ -256,22 +256,76 @@ If more time was available, these are a few of the questions and research ideas 
 
 Next steps for this project would involve using machine learning for income prediction and for pattern discovery amongst the BLS and census data. Another new development could be a interactive dashboard for better data exploration. These would help enhance the analysis further on the datasets.
 
+# Code Demonstration
+
+After cloning the repository, before running the code, ensure that your folder and file structure **at minimum** looks like the following:
+
+```
+├── Data_Resources/
+├──── bls_data.xlsx
+├──── census_data.csv
+├── graphics_images/
+├── us_state/
+├──── us_state.cpg
+├──── us_state.dbf
+├──── us_state.prj
+├──── us_state.shp
+├──── us_state.shp.ea.iso.xml
+├──── us_state.shp.iso.xml
+├──── us_state.shx
+├── bls_data_exploration.ipynb
+```
+
+You will need the *Data_Resources* folder to exactly match to input the data, a directory called *graphics_images* to store the images and charts produced, the *us_state* folder to exactly match to build the geographic heatmaps, and the *bls_data_exploration.ipynb* notebook file to run the analysis. Please run the *bls_data_exploration.ipynb* file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
+
+Please note you must have the following python libraries installed before running this code:
+
+1. pandas 
+    - Needed for general data frame management
+2. numpy
+    - Needed for calculating statistics
+3. seaborn
+    - Needed for statistical data visualization
+4. matplotlib.pyplot
+    - Needed for plotting the data
+5. geopandas
+    - Needed for creating the geographic heat maps
+6. datetime
+    - Needed for calculating and setting datetimes inside the data
+
 
 # Folder Structure
 
 ```
 ├── Data_Resources/
-├──── all_data_M_2023.xlsx
-├──── usa_00008.csv
+├──── bls_data.xlsx
+├──── census_data.csv
 ├── graphics_images/
+├──── fig1.1_avg_income_state_heatmap.png
+├──── fig1.2_num_paid_individuals_barchart.png
+├──── fig1.3_percentage_high_paid_state_piechart.png
+├──── fig2.1_top10_occ_state_barchart_vertical.png
+├──── fig2.2_top10_occ_state_barchart_horizontal.png
+├──── fig3.1_distr_educ_high_paid_barchart.png
+├──── fig3.2_distr_educ_annual_mean_income_boxplot.png
+├──── fig4.1_correlation_heatmap.png
+├──── fig4.2_total_employment_avg_salary_scatter.png
+├──── fig5.1_high_paid_gender_barchart.png
+├──── fig5.2_avg_annual_mean_wage_gender_barchart.png
+├──── fig6.1_top10_occ_annual_mean_wage_barchart.png
+├──── fig6.2_top20_occ_annual_mean_wage_boxplot.png
+├──── fig7.1_count_high_paid_age_group_barchart.png
 ├── us_state/
+├──── us_state.cpg
+├──── us_state.dbf
+├──── us_state.prj
+├──── us_state.shp
+├──── us_state.shp.ea.iso.xml
+├──── us_state.shp.iso.xml
+├──── us_state.shx
 ├── bls_data_exploration.ipynb
-├── data_source_link.txt
+├── README.md
 ```
-
-# Code Demonstration
-
-After cloning the repository, please run the *bls_data_exploration.ipynb* file to run the analysis. The notebook has the file paths matching the folder structure found in the repository. Ensure that the folder structure cloned matches the folder structure above found in the repository.
 
 
 # References
