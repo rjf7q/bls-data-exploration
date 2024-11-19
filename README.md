@@ -7,12 +7,19 @@ This project analyzes the relationship between salary, education, and occupation
 - [Project Goals](#project-goals)
 - [Data Preparation](#data-preparation)
 - [Data Analysis](#data-analysis)
+    - [(1) Distribution of Average Income for the highest-paid individuals by State in the U.S.](#1-distribution-of-average-income-for-the-highest-paid-individuals-by-state-in-the-us)
+    - [(2) Top 10 Most Common Occupations of High-Paid Individuals ](#2-top-10-most-common-occupations-of-high-paid-individuals)
+    - [(3) Distribution of High-Paid Individuals and Annual Mean Income by Education Level](#3-distribution-of-high-paid-individuals-and-annual-mean-income-by-education-level)
+    - [(4) Correlation Between Annual Salary and Other Variables in the Data](#4-correlation-between-annual-salary-and-other-variables-in-the-data)
+    - [(5) Distribution of High-Paid Individuals by Gender](#5-distribution-of-high-paid-individuals-by-gender)
+    - [(6) Average Salary Variance for the Top Occupations](#6-average-salary-variance-for-the-top-occupations)
+    - [(7) Distribution of High-Paid Individuals across different Age Groups](#7-distribution-of-high-paid-individuals-across-different-age-groups)
 - [Problems Encountered](#problems-encountered)
 - [Conclusions](#conclusions-and-key-findings)
 - [Future Considerations](#future-considerations)
-- [References](#references)
 - [Folder Structure](#folder-structure)
 - [Code Demonstration](#code-demonstration)
+- [References](#references)
 
 
 # Project Goals:
@@ -26,11 +33,22 @@ The data used for this project was downloaded from the Educational Attainment an
 Since our main goal was figuring out what the highest paid jobs were, we filtered the data to only include jobs that had an average annual income of over $100,000, or an average hourly income over $48.08. We also ensured the data was cleaned and clear of all empty or missing values. The datasets were merged on the occupation code and on the state code. 
 
 # Data Analysis:
-After exploring the distributions of educational attainment and wage data, here is the analysis we have gathered after identifying correlations between education levels and wages, as well as trends in high-paying jobs.
+After exploring the distributions of educational attainment and wage data, here is the analysis we have gathered after identifying correlations between education levels and wages, as well as trends in high-paying jobs. We will be attempting to answer the following questions through our analysis:
 
-## Average Income by State in the U.S. 
+1. What is the distribution of high-paid individuals across different states?
+2. What are the most common occupations among high-paid individuals?
+3. What is the relationship between education level and the number of high-paid individuals?
+4. What is the correlation between salary (A_MEAN) and other numerical features?
+5. What is the distribution of high-paid individuals by gender?
+6. How does the average salary vary across different occupation?
+7. How is the distribution of high-paid individuals across different age groups?
+
+## (1) Distribution of Average Income for the highest-paid individuals by State in the U.S. 
+## What is the distribution of high-paid individuals across different states?
 
 <img align="center" width="900" height="400" src='graphics_images/avg_income_state_heatmap.png'>
+
+- Fig 1.1: Average Income by State in the U.S. Heatmap
 
 ### Visualization Highlights:
 
@@ -52,27 +70,36 @@ Other Top States:
 
 > States with urban centers and a strong presence of high-paying industries generally perform better. Coastal states, particularly in the Northeast and West Coast, exhibit a clear advantage over their inland counterparts.
 
-## Number and Percentage of High-Paid Individuals by State
+## Distribution of Highest-Paid Individuals by State
 
 <img align="center" width="900" height="350" src='graphics_images/num_paid_individuals_barchart.png'>
+
+- Fig 1.2: Bar plot showing the number of high-paid individuals by state.
 
 The same grpah was summarized into the pie chart below. States with a national paid individual average below 5% were grouped into "Other" to display the largest percentages across the nation.
 
 <img align="center" width="500" height="500" src='graphics_images/percentage_high_paid_state_piechart.png'>
 
+- Fig 1.3: Pie chart showing the percentage of high-paid individuals by state.
+
 ### Key Insights: 
 
 These visualizations reflect the absolute numbers of high-paid individuals due to the sheer population size of these states. For example, California has a larger population, resulting in a higher total number of high-income earners, even if the average income is not the highest.
 
-## Top 10 Occupations of High-Paid Individuals 
+## (2) Top 10 Most Common Occupations of High-Paid Individuals 
+## What are the most common occupations among high-paid individuals?
 
 <img align="center" width="900" height="350" src='graphics_images/top10_occ_state_barchart_vertical.png'>
 
+- Fig 2.1: Bar plot showing the top 10 occupations for high-paid individuals.
+
 ### Key Insights: 
 
-We have visualized the top 10 occupations of the highest paid individuals. Of note, the technology industry was the most represented with Software Developrs and Computer and Information Systems Managers. Financial Managers also made up a large portion of the top 10 occupations. The same visualization was transformed into a horizontal bar chart below for readability. 
+We have visualized the top 10 occupations of the highest paid individuals. Of note, the technology industry was the most represented with Software Developrs and Computer and Information Systems Managers. Financial Managers also made up a large portion of the top 10 occupations. This matches how some of the highest paying jobs found on job sites are usually located in the tech industry. The same visualization was transformed into a horizontal bar chart below for readability. 
 
 <img align="center" width="900" height="350" src='graphics_images/top10_occ_state_barchart_horizontal.png'>
+
+- Fig 2.2: Horizontal Bar plot showing the top 10 occupations for high-paid individuals.
 
 ### Key Insights: 
 
@@ -84,9 +111,12 @@ The top occupations indicate a strong representation from the technology sector,
 
 This visualization reinforces the idea that the highest-paying jobs are often in high-demand, specialized fields like software development and financial management. These sectors require specific skill sets and leadership, which are highly compensated across different regions.
 
-## Distribution of High-Paid Individuals and Annual Mean Income by Education Level 
+## (3) Distribution of High-Paid Individuals and Annual Mean Income by Education Level 
+## What is the relationship between education level and the number of high-paid individuals?
 
 <img align="center" width="900" height="350" src='graphics_images/distr_educ_high_paid_barchart.png'>
+
+- Fig 3.1: Bar plot showing the number of high-paid individuals by education level.
 
 ### Key Insights: 
 
@@ -94,13 +124,18 @@ The distribution of high-paid individuals and annual mean income by education le
 
 <img align="center" width="900" height="350" src='graphics_images/distr_educ_annual_mean_income_boxplot.png'>
 
+- Fig 3.2: Box plot showing the distribution of salaries by education level.
+
 ### Key Insights: 
 
 The high incomes for individuals with "Grade 5 to 8," "Associate Degree," and "Nursing to Grade 4" can be explained by the demand for skilled trades and healthcare roles, which require specialized training rather than a four-year degree. These fields, such as nursing and technical professions, offer high salaries due to expertise, certifications, and the labor market's need for skilled workers
 
-## Correlation Between Annual Salary and Other Variables in the Data
+## (4) Correlation Between Annual Salary and Other Variables in the Data
+## What is the correlation between salary (A_MEAN) and other numerical features?
 
 <img align="center" width="900" height="400" src='graphics_images/correlation_heatmap.png'>
+
+Fig 4.1: Heatmap showing the correlation matrix of numerical features.
 
 ### Key Insights: 
 
@@ -110,13 +145,18 @@ The small correlation (max 0.15) suggests that salary is influenced by many fact
 
 <img align="center" width="900" height="350" src='graphics_images/total_employment_avg_salary_scatter.png'>
 
+- Fig 4.2: Scatter plot showing the relationship between Average Salary (A_MEAN) and Total Employment (TOT_EMP).
+
 ### Key Insights: 
 
 The above scatter shows that there is not a strong relationship between the two fields. As supported by the above correlation heat map, there is not a strong linear relationship between total employment and average salary that we could analyze from the data we collected. 
 
-## Distribution of High-Paid Individuals by Gender
+## (5) Distribution of High-Paid Individuals by Gender
+## What is the distribution of high-paid individuals by gender?
 
 <img align="center" width="900" height="350" src='graphics_images/high_paid_gender_barchart.png'>
+
+- Fig 5.1: Count of High-Paid Individuals by Gender
 
 ### Key Insights: 
 
@@ -125,6 +165,8 @@ The above visualization displays the count for the highest paid individuals by g
 We then drilled deeper into the data with the below graphic showing the average annual wage by gender. 
 
 <img align="center" width="900" height="350" src='graphics_images/avg_annual_mean_wage_gender_barchart.png'>
+
+- Fig 5.2: Average Annual Mean Wage by Gender
 
 ### Key Insights: 
 
@@ -136,23 +178,31 @@ However, in the average annual mean wage by gender, females show a slight domina
 
 > The slight difference in wages might also indicate that the top earners in some fields may be women, even though more men hold high-paying roles in other industries.
 
-## Average Salary for the Top Occupations
+## (6) Average Salary Variance for the Top Occupations
+## How does the average salary vary across different occupation?
 
 <img align="center" width="900" height="350" src='graphics_images/top10_occ_annual_mean_wage_barchart.png'>
 
+- Fig 6.1: Bar chart depicting the top 10 occupations and their average annual mean wage
+
 ### Key Insights: 
 
-This visualization covers the top 10 highest paying occupations and their average salaries. We can see that nurse anesthetics, computer and information research scientists, and architectural and engineering managers are some of the highest paying occupations in the nation. The below visualization drills deeper with a box plot.
+This visualization covers the top 10 highest paying occupations and their average salaries. We can see that nurse anesthetics, computer and information research scientists, and architectural and engineering managers are some of the highest paying occupations in the nation. This matches the usual trend of tech and medical jobs having some of the highest salaries. The below visualization drills deeper with a box plot.
 
 <img align="center" width="900" height="550" src='graphics_images/top20_occ_annual_mean_wage_boxplot.png'>
+
+- Fig 6.2: Box plot showing the distribution of annual mean wages for the top 20 occupations.
 
 ### Key Insights: 
 
 The top occupations mentioned above, [nurse anesthetics, computer and information research scientists, and architectural and engineering managers], are shown to have not only the highest annual wages but also the highest ranges of salaries amongst other professions. Even though Computer and Information Research Scientists have a higher max salary, their average salary is much lower than Nurse Anesthetics. So on average, Nurse Anesthetics will make more than Computer and Information Research Scientists, even if the latter profession has higher peaks. 
 
-## High-Paid Individuals across different Age Groups
+## (7) Distribution of High-Paid Individuals across different Age Groups
+## How is the distribution of high-paid individuals across different age groups?
 
 <img align="center" width="900" height="350" src='graphics_images/count_high_paid_age_group_barchart.png'>
+
+- Fig 7.1: Bar chart showing the count of high-paid individuals by age
 
 ### Key Insights: 
 
@@ -207,16 +257,6 @@ If more time was available, these are a few of the questions and research ideas 
 Next steps for this project would involve using machine learning for income prediction and for pattern discovery amongst the BLS and census data. Another new development could be a interactive dashboard for better data exploration. These would help enhance the analysis further on the datasets.
 
 
-# References
-
-- https://www.bls.gov/developers/api_FAQs.htm
-- https://www.bls.gov/developers/api_python.htm#python2
-- https://www.bls.gov/ooh/occupation-finder.htm
-- https://www.bls.gov/oes/tables.htm
-- https://data.bls.gov/registrationEngine/
-- https://data.bls.gov/oes/#/home
-- https://usa.ipums.org/usa/
-
 # Folder Structure
 
 ```
@@ -232,3 +272,20 @@ Next steps for this project would involve using machine learning for income pred
 # Code Demonstration
 
 After cloning the repository, please run the *bls_data_exploration.ipynb* file to run the analysis. The notebook has the file paths matching the folder structure found in the repository. Ensure that the folder structure cloned matches the folder structure above found in the repository.
+
+
+# References
+
+- https://www.bls.gov/developers/api_FAQs.htm
+- https://www.bls.gov/developers/api_python.htm#python2
+- https://www.bls.gov/ooh/occupation-finder.htm
+- https://www.bls.gov/oes/tables.htm
+- https://data.bls.gov/registrationEngine/
+- https://data.bls.gov/oes/#/home
+- https://usa.ipums.org/usa/
+
+## Project completed by:
+- SAMI CHOWDHURY
+- MARA BENSALEM
+- ROBERT FERRARI
+- MILEN KING
