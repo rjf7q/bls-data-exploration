@@ -4,6 +4,7 @@
 This project analyzes the relationship between salary, education, and occupation across U.S. states using data from the Bureau of Labor Statistics (BLS) and the U.S. Census. The goal is to understand how these factors influence job opportunities and income levels in different geographical areas.
 
 # Table of Contents
+- [Code Usage Instructions](#code-usage-instructions)
 - [Project Goals](#project-goals)
 - [Data Preparation](#data-preparation)
 - [Data Analysis](#data-analysis)
@@ -17,9 +18,46 @@ This project analyzes the relationship between salary, education, and occupation
 - [Problems Encountered](#problems-encountered)
 - [Conclusions](#conclusions-and-key-findings)
 - [Future Considerations](#future-considerations)
-- [Code Demonstration](#code-demonstration)
-- [Project Folder Structure](#folder-structure)
+- [Repository Structure](#repository-structure)
 - [References](#references)
+
+# Code Usage Instructions
+
+After cloning the repository, before running the code, ensure that your folder and file structure **at minimum** looks like the following:
+
+```
+├── Data_Resources/
+├──── bls_data.xlsx
+├──── census_data.csv
+├── graphics_images/
+├── us_state/
+├──── us_state.cpg
+├──── us_state.dbf
+├──── us_state.prj
+├──── us_state.shp
+├──── us_state.shp.ea.iso.xml
+├──── us_state.shp.iso.xml
+├──── us_state.shx
+├── bls_data_exploration.ipynb
+```
+
+You will need the **"Data_Resources/"** folder to exactly match to input the data, a directory called **"graphics_images/"** to store the images and charts produced, the **"us_state/"** folder to exactly match to build the geographic heatmaps, and the **"bls_data_exploration.ipynb"** notebook file to run the analysis. The raw datasets must be inside the **"Data_Resources/** folder, and the U.S. state shape data (all data within the us_state folder) must also be placed in the **us_state/** folder prior to running the code. Please run the **"bls_data_exploration.ipynb"** file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
+
+Please note you must have the following python libraries installed before running this code:
+
+1. pandas 
+    - Needed for general data frame management
+2. numpy
+    - Needed for calculating statistics
+3. seaborn
+    - Needed for statistical data visualization
+4. matplotlib.pyplot
+    - Needed for plotting the data
+5. geopandas
+    - Needed for creating the geographic heat maps
+6. datetime
+    - Needed for calculating and setting datetimes inside the data
+
 
 
 # Project Goals:
@@ -256,45 +294,8 @@ If more time was available, these are a few of the questions and research ideas 
 
 Next steps for this project would involve using machine learning for income prediction and for pattern discovery amongst the BLS and census data. Another new development could be a interactive dashboard for better data exploration. These would help enhance the analysis further on the datasets.
 
-# Code Demonstration
 
-After cloning the repository, before running the code, ensure that your folder and file structure **at minimum** looks like the following:
-
-```
-├── Data_Resources/
-├──── bls_data.xlsx
-├──── census_data.csv
-├── graphics_images/
-├── us_state/
-├──── us_state.cpg
-├──── us_state.dbf
-├──── us_state.prj
-├──── us_state.shp
-├──── us_state.shp.ea.iso.xml
-├──── us_state.shp.iso.xml
-├──── us_state.shx
-├── bls_data_exploration.ipynb
-```
-
-You will need the **"Data_Resources/"** folder to exactly match to input the data, a directory called **"graphics_images/"** to store the images and charts produced, the **"us_state/"** folder to exactly match to build the geographic heatmaps, and the **"bls_data_exploration.ipynb"** notebook file to run the analysis. Please run the **"bls_data_exploration.ipynb"** file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
-
-Please note you must have the following python libraries installed before running this code:
-
-1. pandas 
-    - Needed for general data frame management
-2. numpy
-    - Needed for calculating statistics
-3. seaborn
-    - Needed for statistical data visualization
-4. matplotlib.pyplot
-    - Needed for plotting the data
-5. geopandas
-    - Needed for creating the geographic heat maps
-6. datetime
-    - Needed for calculating and setting datetimes inside the data
-
-
-# Folder Structure
+# Repository Structure
 
 ```
 ├── Data_Resources/
@@ -340,6 +341,6 @@ Please note you must have the following python libraries installed before runnin
 
 ## Project completed by:
 - SAMI CHOWDHURY
-- MARA BENSALEM
+- MARWA BENSALEM
 - ROBERT FERRARI
 - MILEN KING
