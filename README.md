@@ -4,7 +4,7 @@
 This project analyzes the relationship between salary, education, and occupation across U.S. states using data from the Bureau of Labor Statistics (BLS) and the U.S. Census. The goal is to understand how these factors influence job opportunities and income levels in different geographical areas.
 
 # Table of Contents
-- [Code Usage Instructions](#code-usage-instructions)
+- [Code Demonstration Instructions](#code-demonstration-instructions)
 - [Project Goals](#project-goals)
 - [Data Preparation](#data-preparation)
 - [Data Analysis](#data-analysis)
@@ -21,7 +21,7 @@ This project analyzes the relationship between salary, education, and occupation
 - [Repository Structure](#repository-structure)
 - [References](#references)
 
-# Code Usage Instructions
+# Code Demonstration Instructions
 
 After cloning the repository, before running the code, ensure that your folder and file structure **at minimum** looks like the following:
 
