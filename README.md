@@ -10,15 +10,13 @@ This project analyzes the relationship between salary, education, and occupation
 - [Conclusions](#conclusions)
 - [References](#references)
 - [Folder Structure](#folder-structure)
+- [Code Demonstration](#code-demonstration)
 
 
 # Project Goals:
 - Identify High-Paying Occupations: Find the top occupations earning $100k+ and categorize them by industry, educational requirements, and experience level. 
-- Analyze Job Growth and Outlook: Evaluate which high-paying jobs are expected to grow the fastest and what factors influence this. 
-- Explore Education and Training Requirements: Investigate the correlation between education level and earnings, focusing on professions requiring advanced degrees. 
+- Explore Education and Training Requirements: Investigate the correlation between education level and earnings
 - Compare Demographic Trends: Look into how gender, race, or geographic location might influence access to high-paying jobs. 
-- Provide Actionable Insights: Offer recommendations for those seeking to enter these lucrative fields, based on qualifications and industry trends.
-
 
 # Data Preparation:
 The data used for this project was downloaded from the Educational Attainment and the Occupational Employment and Wage Statistics (OEWS) data from the U.S. Bureau of Labor Statistics and from the IPUMS USA Census data. Afterwards, we cleaned and merged these datasets to begin our analysis, which focused on key variables like occupation, educational attainment, and wage statistics. 
@@ -37,7 +35,7 @@ After exploring the distributions of educational attainment and wage data, here 
 - Color Intensity: Darker shades on the map represent states with higher average annual wages.
 - Clusters of Wealth: States in the Mid-Atlantic and West Coast dominate, showcasing clear contrasts with less urbanized states.
 
-### Key Insight 
+### Key Insights: 
 
 Delaware leading is based on average annual wages per individual (relative concentration of high-paid individuals).
 
@@ -58,7 +56,7 @@ Other Top States:
 
 <img align="center" width="900" height="300" src='images/percentage_high_paid_state_piechart.png'>
 
-### Key Insight 
+### Key Insights: 
 
 These visualizations reflect the absolute numbers of high-paid individuals due to the sheer population size of these states. For example, California has a larger population, resulting in a higher total number of high-income earners, even if the average income is not the highest.
 
@@ -68,7 +66,7 @@ These visualizations reflect the absolute numbers of high-paid individuals due t
 
 <img align="center" width="900" height="300" src='images/top10_occ_state_barchart_horizontal.png'>
 
-### Key Insight 
+### Key Insights: 
 
 The top occupations indicate a strong representation from the technology sector, emphasizing its role as a high-paying industry. Financial managers' inclusion highlights the importance of financial expertise in driving organizational success. Both IT and financial management roles underscore the premium paid for leadership positions in specialized fields. Categorized as follows:
 
@@ -84,15 +82,15 @@ This visualization reinforces the idea that the highest-paying jobs are often in
 
 <img align="center" width="900" height="300" src='images/distr_educ_annual_mean_income_boxplot.png'>
 
-### Key Insight 
+### Key Insights: 
 
 The high incomes for individuals with "Grade 5 to 8," "Associate Degree," and "Nursing to Grade 4" can be explained by the demand for skilled trades and healthcare roles, which require specialized training rather than a four-year degree. These fields, such as nursing and technical professions, offer high salaries due to expertise, certifications, and the labor market's need for skilled workers
 
 ## Correlation Between Annual Salary and Other Variables in the Data
 
-<img align="center" width="900" height="300" src='images/corr_heatmap.png'>
+<img align="center" width="900" height="300" src='images/correlation_heatmap.png'>
 
-### Key Insight 
+### Key Insights: 
 
 The small correlation (max 0.15) suggests that salary is influenced by many factors in complex ways, not just the numerical features. It could be due to non-linear relationships, diverse salary ranges across industries, or the presence of outliers, making it hard to capture strong linear correlations.
 
@@ -110,7 +108,7 @@ The above scatter shows that there is not a strong relationship between the two 
 
 <img align="center" width="900" height="300" src='images/avg_annual_mean_wage_gender_barchart.png'>
 
-### Key Insight
+### Key Insights: 
 
 The results show that in the count of high-paid individuals by gender, males dominate, which is often reflective of the overall gender disparity in high-paying occupations and leadership roles. This is consistent with many industries where more males are in top-paying positions.
 
@@ -130,14 +128,25 @@ However, in the average annual mean wage by gender, females show a slight domina
 
 <img align="center" width="900" height="300" src='images/top20_occ_annual_mean_wage_boxplot.png'>
 
-### Key Insight
+### Key Insights: 
 
+The top occupations and their average salary insight.
 
 ## High-Paid Individuals across different Age Groups
 
 <img align="center" width="900" height="300" src='images/count_high_paid_age_group_barchart.png'>
 
+### Key Insights: 
+
+The highest paid individuals across different age groups insight.
+
 # Conclusions
+
+Our key conclusions from this analysis are as follows:
+
+- Summary Point 1
+- Summary Point 2
+- Summary Point 3
 
 
 # References
@@ -161,3 +170,7 @@ However, in the average annual mean wage by gender, females show a slight domina
 ├── bls_data_exploration.ipynb
 ├── data_source_link.txt
 ```
+
+# Code Demonstration
+
+Please run the *bls_data_exploration.ipynb* file to run the analysis. The notebook has the file paths matching the folder structure found in the repository. Ensure that the folder structure cloned matches the folder structure above found in the repository.
