@@ -276,7 +276,7 @@ After cloning the repository, before running the code, ensure that your folder a
 ├── bls_data_exploration.ipynb
 ```
 
-You will need the **Data_Resources** folder to exactly match to input the data, a directory called **graphics_images** to store the images and charts produced, the **us_state** folder to exactly match to build the geographic heatmaps, and the **bls_data_exploration.ipynb** notebook file to run the analysis. Please run the **bls_data_exploration.ipynb** file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
+You will need the **"Data_Resources/"** folder to exactly match to input the data, a directory called **"graphics_images/"** to store the images and charts produced, the **"us_state/"** folder to exactly match to build the geographic heatmaps, and the **"bls_data_exploration.ipynb"** notebook file to run the analysis. Please run the **"bls_data_exploration.ipynb"** file to run the analysis. The notebook has the file paths matching the folder structure found in the repository.  
 
 Please note you must have the following python libraries installed before running this code:
 
