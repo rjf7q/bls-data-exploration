@@ -28,7 +28,7 @@ After exploring the distributions of educational attainment and wage data, here 
 
 ## Average Income by State in the U.S. 
 
-<img align="center" width="900" height="600" src='graphics_images/avg_income_state_heatmap.png'>
+<img align="center" width="600" height="600" src='graphics_images/avg_income_state_heatmap.png'>
 
 ### Visualization Highlights:
 
@@ -52,9 +52,11 @@ Other Top States:
 
 ## Number and Percentage of High-Paid Individuals by State
 
-<img align="center" width="900" height="600" src='graphics_images/num_paid_individuals_barchart.png'>
+<img align="center" width="600" height="600" src='graphics_images/num_paid_individuals_barchart.png'>
 
-<img align="center" width="900" height="600" src='graphics_images/percentage_high_paid_state_piechart.png'>
+The same grpah was summarized into the pie chart below. States with a national paid individual average below 5% were grouped into "Other" to display the largest percentages across the nation.
+
+<img align="center" width="600" height="600" src='graphics_images/percentage_high_paid_state_piechart.png'>
 
 ### Key Insights: 
 
@@ -62,9 +64,11 @@ These visualizations reflect the absolute numbers of high-paid individuals due t
 
 ## Top 10 Occupations of High-Paid Individuals 
 
-<img align="center" width="900" height="600" src='graphics_images/top10_occ_state_barchart_vertical.png'>
+<img align="center" width="600" height="600" src='graphics_images/top10_occ_state_barchart_vertical.png'>
 
-<img align="center" width="900" height="600" src='graphics_images/top10_occ_state_barchart_horizontal.png'>
+The same visualization was transformed into a horizontal bar chart below for readability. 
+
+<img align="center" width="600" height="600" src='graphics_images/top10_occ_state_barchart_horizontal.png'>
 
 ### Key Insights: 
 
@@ -78,9 +82,11 @@ This visualization reinforces the idea that the highest-paying jobs are often in
 
 ## Distribution of High-Paid Individuals and Annual Mean Income by Education Level 
 
-<img align="center" width="900" height="600" src='graphics_images/distr_educ_high_paid_barchart.png'>
+<img align="center" width="600" height="600" src='graphics_images/distr_educ_high_paid_barchart.png'>
 
-<img align="center" width="900" height="600" src='graphics_images/distr_educ_annual_mean_income_boxplot.png'>
+The distribution of high-paid individuals and annual mean income by education level was also visualized using the boxplot below to show the distribution of the data. 
+
+<img align="center" width="600" height="600" src='graphics_images/distr_educ_annual_mean_income_boxplot.png'>
 
 ### Key Insights: 
 
@@ -88,7 +94,7 @@ The high incomes for individuals with "Grade 5 to 8," "Associate Degree," and "N
 
 ## Correlation Between Annual Salary and Other Variables in the Data
 
-<img align="center" width="900" height="600" src='graphics_images/correlation_heatmap.png'>
+<img align="center" width="600" height="600" src='graphics_images/correlation_heatmap.png'>
 
 ### Key Insights: 
 
@@ -96,17 +102,19 @@ The small correlation (max 0.15) suggests that salary is influenced by many fact
 
 ## Relationship between Total Employment and Average Salary
 
-<img align="center" width="900" height="600" src='graphics_images/total_employment_avg_salary_scatter.png'>
+<img align="center" width="600" height="600" src='graphics_images/total_employment_avg_salary_scatter.png'>
 
-The above scatter shows that there is not a strong relationship between the two fields.
+### Key Insights: 
+
+The above scatter shows that there is not a strong relationship between the two fields. As supported by the above correlation heat map, there is not a strong linear relationship between total employment and average salary. 
 
 ## Distribution of High-Paid Individuals by Gender
 
-<img align="center" width="900" height="600" src='graphics_images/high_paid_gender_barchart.png'>
+<img align="center" width="600" height="600" src='graphics_images/high_paid_gender_barchart.png'>
 
- 
+The above visualization displays the count for the highest paid individuals by gender. We then drilled deeper into the data with the below graphic showing the average annual wage by gender. 
 
-<img align="center" width="900" height="600" src='graphics_images/avg_annual_mean_wage_gender_barchart.png'>
+<img align="center" width="600" height="600" src='graphics_images/avg_annual_mean_wage_gender_barchart.png'>
 
 ### Key Insights: 
 
@@ -122,11 +130,11 @@ However, in the average annual mean wage by gender, females show a slight domina
 
 ## Average Salary for the Top Occupations
 
-<img align="center" width="900" height="600" src='graphics_images/top10_occ_annual_mean_wage_barchart.png'>
+<img align="center" width="600" height="600" src='graphics_images/top10_occ_annual_mean_wage_barchart.png'>
 
- 
+This visualization covers the top 10 highest paying occupations and their average salaries. We can see that nurse anesthetics, computer and information research scientists, and architectural and engineering managers are some of the highest paying occupations in the nation. The below visualization drills deeper with a box plot. 
 
-<img align="center" width="900" height="600" src='graphics_images/top20_occ_annual_mean_wage_boxplot.png'>
+<img align="center" width="600" height="600" src='graphics_images/top20_occ_annual_mean_wage_boxplot.png'>
 
 ### Key Insights: 
 
@@ -134,7 +142,7 @@ The top occupations and their average salary insight.
 
 ## High-Paid Individuals across different Age Groups
 
-<img align="center" width="900" height="600" src='graphics_images/count_high_paid_age_group_barchart.png'>
+<img align="center" width="600" height="600" src='graphics_images/count_high_paid_age_group_barchart.png'>
 
 ### Key Insights: 
 
