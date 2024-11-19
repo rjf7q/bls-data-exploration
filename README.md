@@ -46,7 +46,7 @@ After exploring the distributions of educational attainment and wage data, here 
 ## (1) Distribution of Average Income for the highest-paid individuals by State in the U.S. 
 ## What is the distribution of high-paid individuals across different states?
 
-<img align="center" width="900" height="400" src='graphics_images/avg_income_state_heatmap.png'>
+<img align="center" width="900" height="400" src='graphics_images/fig1.1_avg_income_state_heatmap.png'>
 
 - Fig 1.1: Average Income by State in the U.S. Heatmap
 
@@ -72,13 +72,13 @@ Other Top States:
 
 ## Distribution of Highest-Paid Individuals by State
 
-<img align="center" width="900" height="350" src='graphics_images/num_paid_individuals_barchart.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig1.2_num_paid_individuals_barchart.png'>
 
 - Fig 1.2: Bar plot showing the number of high-paid individuals by state.
 
 The same grpah was summarized into the pie chart below. States with a national paid individual average below 5% were grouped into "Other" to display the largest percentages across the nation.
 
-<img align="center" width="500" height="500" src='graphics_images/percentage_high_paid_state_piechart.png'>
+<img align="center" width="500" height="500" src='graphics_images/fig1.3_percentage_high_paid_state_piechart.png'>
 
 - Fig 1.3: Pie chart showing the percentage of high-paid individuals by state.
 
@@ -89,7 +89,7 @@ These visualizations reflect the absolute numbers of high-paid individuals due t
 ## (2) Top 10 Most Common Occupations of High-Paid Individuals 
 ## What are the most common occupations among high-paid individuals?
 
-<img align="center" width="900" height="350" src='graphics_images/top10_occ_state_barchart_vertical.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig2.1_top10_occ_state_barchart_vertical.png'>
 
 - Fig 2.1: Bar plot showing the top 10 occupations for high-paid individuals.
 
@@ -97,7 +97,7 @@ These visualizations reflect the absolute numbers of high-paid individuals due t
 
 We have visualized the top 10 occupations of the highest paid individuals. Of note, the technology industry was the most represented with Software Developrs and Computer and Information Systems Managers. Financial Managers also made up a large portion of the top 10 occupations. This matches how some of the highest paying jobs found on job sites are usually located in the tech industry. The same visualization was transformed into a horizontal bar chart below for readability. 
 
-<img align="center" width="900" height="350" src='graphics_images/top10_occ_state_barchart_horizontal.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig2.2_top10_occ_state_barchart_horizontal.png'>
 
 - Fig 2.2: Horizontal Bar plot showing the top 10 occupations for high-paid individuals.
 
@@ -114,7 +114,7 @@ This visualization reinforces the idea that the highest-paying jobs are often in
 ## (3) Distribution of High-Paid Individuals and Annual Mean Income by Education Level 
 ## What is the relationship between education level and the number of high-paid individuals?
 
-<img align="center" width="900" height="350" src='graphics_images/distr_educ_high_paid_barchart.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig3.1_distr_educ_high_paid_barchart.png'>
 
 - Fig 3.1: Bar plot showing the number of high-paid individuals by education level.
 
@@ -122,7 +122,7 @@ This visualization reinforces the idea that the highest-paying jobs are often in
 
 The distribution of high-paid individuals and annual mean income by education level visualized above in a bar chart. We can see that the the individuals that had the highest income were not necessarily college graduates with elaborate degrees, instead placing an emphasis on certifications and skilled trades. This was also visualized using the boxplot below to show the distribution of the averages of the data. 
 
-<img align="center" width="900" height="350" src='graphics_images/distr_educ_annual_mean_income_boxplot.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig3.2_distr_educ_annual_mean_income_boxplot.png'>
 
 - Fig 3.2: Box plot showing the distribution of salaries by education level.
 
@@ -133,7 +133,7 @@ The high incomes for individuals with "Grade 5 to 8," "Associate Degree," and "N
 ## (4) Correlation Between Annual Salary and Other Variables in the Data
 ## What is the correlation between salary (A_MEAN) and other numerical features?
 
-<img align="center" width="900" height="400" src='graphics_images/correlation_heatmap.png'>
+<img align="center" width="900" height="400" src='graphics_images/fig4.1_correlation_heatmap.png'>
 
 Fig 4.1: Heatmap showing the correlation matrix of numerical features.
 
@@ -143,7 +143,7 @@ The small correlation (max 0.15) suggests that salary is influenced by many fact
 
 ## Relationship between Total Employment and Average Salary
 
-<img align="center" width="900" height="350" src='graphics_images/total_employment_avg_salary_scatter.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig4.2_total_employment_avg_salary_scatter.png'>
 
 - Fig 4.2: Scatter plot showing the relationship between Average Salary (A_MEAN) and Total Employment (TOT_EMP).
 
@@ -154,7 +154,7 @@ The above scatter shows that there is not a strong relationship between the two 
 ## (5) Distribution of High-Paid Individuals by Gender
 ## What is the distribution of high-paid individuals by gender?
 
-<img align="center" width="900" height="350" src='graphics_images/high_paid_gender_barchart.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig5.1_high_paid_gender_barchart.png'>
 
 - Fig 5.1: Count of High-Paid Individuals by Gender
 
@@ -164,7 +164,7 @@ The above visualization displays the count for the highest paid individuals by g
 
 We then drilled deeper into the data with the below graphic showing the average annual wage by gender. 
 
-<img align="center" width="900" height="350" src='graphics_images/avg_annual_mean_wage_gender_barchart.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig5.2_avg_annual_mean_wage_gender_barchart.png'>
 
 - Fig 5.2: Average Annual Mean Wage by Gender
 
@@ -181,7 +181,7 @@ However, in the average annual mean wage by gender, females show a slight domina
 ## (6) Average Salary Variance for the Top Occupations
 ## How does the average salary vary across different occupation?
 
-<img align="center" width="900" height="350" src='graphics_images/top10_occ_annual_mean_wage_barchart.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig6.1_top10_occ_annual_mean_wage_barchart.png'>
 
 - Fig 6.1: Bar chart depicting the top 10 occupations and their average annual mean wage
 
@@ -189,7 +189,7 @@ However, in the average annual mean wage by gender, females show a slight domina
 
 This visualization covers the top 10 highest paying occupations and their average salaries. We can see that nurse anesthetics, computer and information research scientists, and architectural and engineering managers are some of the highest paying occupations in the nation. This matches the usual trend of tech and medical jobs having some of the highest salaries. The below visualization drills deeper with a box plot.
 
-<img align="center" width="900" height="550" src='graphics_images/top20_occ_annual_mean_wage_boxplot.png'>
+<img align="center" width="900" height="550" src='graphics_images/fig6.2_top20_occ_annual_mean_wage_boxplot.png'>
 
 - Fig 6.2: Box plot showing the distribution of annual mean wages for the top 20 occupations.
 
@@ -200,7 +200,7 @@ The top occupations mentioned above, [nurse anesthetics, computer and informatio
 ## (7) Distribution of High-Paid Individuals across different Age Groups
 ## How is the distribution of high-paid individuals across different age groups?
 
-<img align="center" width="900" height="350" src='graphics_images/count_high_paid_age_group_barchart.png'>
+<img align="center" width="900" height="350" src='graphics_images/fig7.1_count_high_paid_age_group_barchart.png'>
 
 - Fig 7.1: Bar chart showing the count of high-paid individuals by age
 
